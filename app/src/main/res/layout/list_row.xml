@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:fillViewport="true">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Activities.MainActivity"
+        >
+
+        <include layout="@layout/list_row_heading"
+            android:id="@+id/rowlayoutheading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+
+            />
+
+
+        <include layout="@layout/list_row_description"
+            android:id="@+id/rowlayoutdescription"
+            android:layout_below="@+id/rowlayoutheading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="1dp"
+            />
+
+
+        <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@color/grey"-->
+            <!--android:layout_below="@+id/rowlayoutdescription"-->
+            <!--&gt;-->
+
+            <!--<EditText-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:hint="@string/commentHint"-->
+                <!--android:layout_margin="20dp"-->
+                <!--android:id="@+id/comment"-->
+                <!--android:background="@color/white"-->
+                <!--android:paddingLeft="15dp"-->
+                <!--/>-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="15dp"-->
+                <!--android:layout_below="@+id/comment"-->
+                <!--android:background="@color/lightgrey"-->
+                <!--&gt;-->
+
+            <!--</LinearLayout>-->
+
+        <!--</RelativeLayout>-->
+
+        <include layout="@layout/list_row_bottom"
+            android:id="@+id/rowlayoutcomment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rowlayoutdescription"
+            android:layout_marginTop="5dp"
+            />
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

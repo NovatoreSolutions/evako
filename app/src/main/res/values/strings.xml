@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EvakoApp</string>
+    <string name="liketext">Like</string>
+    <string name="sharetext">Share</string>
+    <string name="ordertext">Order</string>
+    <string name="commentHint">write a comment...</string>
+    <string name="picText">Add Photos</string>
+    <string name="videoText">Add Video</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#E03530</color>
+    <color name="grey">#FFE2E2E2</color>
+    <color name="lightgrey">#D3D3D3</color>
+    <color name="darkgrey">#A9A9A9</color>
+    <color name="pluslightgrey">#C1C1C1</color>
+    <color name="blackPure">#000000</color>
+    <color name="green">#1E6D00</color>
+    <color name="darkred">#C81E1A</color>
+    <color name="edittextcolor">#A0A0A0</color>
+    <color name="mapIconLayout">#F1F2F4</color>
+    <color name="desColor">#9DA8C0</color>
+    <color name="feedTime">#808080</color>
+    <color name="feedText">#616161</color>
+    <color name="feedBottom">#9B9FA6</color>
+    <color name="lightgreymenu">#A5A9B4</color>
+    <color name="navimenu">#5F5F5F</color>
+    <color name="navimenuback">#F4F5F6</color>
+    <color name="navibottom">#E5E5E5</color>
+    <color name="menutextcolor">#A0A3AF</color>
+    <color name="blackmenu">#5F5F5F</color>
+    <color name="menulinearback">#DBDCDC</color>
+    <color name="Vmenudivider">#C8CAD1</color>
+    <color name="pricecolor">#299C00</color>
+    <color name="Wpostdivider">#EAEBEE</color>
+
+</resources>

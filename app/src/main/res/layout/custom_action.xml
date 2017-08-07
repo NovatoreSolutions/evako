@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/red"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:id="@+id/upperaction"
+        >
+
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:id="@+id/appicon"
+        android:layout_centerInParent="true"
+        android:background="@drawable/logo_2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+
+        />
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchicon"
+            android:layout_toLeftOf="@+id/burgericon"
+            android:src="@drawable/searchicon"
+            />
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:id="@+id/burgericon"
+            android:background="@drawable/burger"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="7dp"
+            />
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/loweraction"
+        android:layout_below="@+id/upperaction"
+        android:background="@color/darkred"
+        android:visibility="gone"
+
+
+        >
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/searchbarlayout"
+            android:background="@color/white"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginRight="40dp"
+            >
+        <RelativeLayout
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:id="@+id/mapimage"
+            android:gravity="center"
+            android:background="@color/mapIconLayout"
+
+            >
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:background="@drawable/marker"
+
+                />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/mapimage"
+                android:background="@color/red"
+                android:id="@+id/lineraftermap"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/edit_query"
+            android:layout_toRightOf="@+id/lineraftermap"
+            android:background="@android:color/transparent"
+            android:hint="Search for restaurants, cusine or dish..."
+            android:textSize="10dp"
+            android:paddingLeft="10dp"
+            android:layout_toLeftOf="@+id/searchiconlayout"
+            android:textColor="@color/edittextcolor"
+            />
+
+
+            <RelativeLayout
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:background="@color/red"
+                android:id="@+id/searchiconlayout"
+                android:gravity="center"
+
+                >
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/searchicon"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/searchpic"
+                    />
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="250dp"
+    android:layout_height="match_parent"
+    android:id="@+id/navimain"
+    android:background="@color/white"
+    android:alpha="1">
+
+
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Login"
+    android:textSize="12dp"
+    android:id="@+id/login"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="5dp"
+    android:textColor="@color/lightgreymenu"/>
+
+    <LinearLayout
+        android:layout_width="1dp"
+        android:background="@color/Vmenudivider"
+        android:layout_height="17dp"
+        android:layout_toRightOf="@+id/login"
+        android:layout_marginTop="10dp"
+        android:id="@+id/linearinnavi"
+        android:orientation="horizontal"
+
+        >
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="12dp"
+        android:id="@+id/Register"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/linearinnavi"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/menutextcolor"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/menulinearback"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/linearinnavi2"
+        android:orientation="horizontal"
+        android:layout_below="@+id/Register"
+
+        />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/navimenu"
+    android:background="@color/navimenuback"
+    android:layout_below="@+id/linearinnavi2">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/menu"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="12dp"
+        android:text="MENU"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:textColor="@color/blackmenu"
+        />
+
+</RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/menulinearback"
+        android:layout_height="1dp"
+        android:id="@+id/linearinnavi3"
+        android:orientation="horizontal"
+        android:layout_below="@+id/navimenu"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Promotions"
+        android:layout_below="@+id/linearinnavi3"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="13dp"
+        android:layout_marginLeft="12dp"        android:text="Promotions"
+        android:textSize="12dp"
+        android:textColor="@color/menutextcolor"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/menulinearback"
+        android:layout_height="1dp"
+        android:id="@+id/linearinnavi4"
+        android:orientation="horizontal"
+        android:layout_below="@+id/Promotions"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/track"
+        android:layout_below="@+id/linearinnavi4"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="13dp"
+        android:layout_marginLeft="12dp"
+        android:text="Track your order"
+        android:textSize="12dp"
+        android:textColor="@color/menutextcolor"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/menulinearback"
+        android:layout_height="1dp"
+        android:id="@+id/linearinnavi5"
+        android:orientation="horizontal"
+        android:layout_below="@+id/track"
+
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pageside"
+        android:layout_below="@id/linearinnavi5"
+        android:background="@color/navimenuback"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Pages"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="12dp"
+        android:text="PAGES"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:textColor="@color/blackmenu"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/menulinearback"
+        android:layout_height="1dp"
+        android:id="@+id/linearinnavi6"
+        android:orientation="horizontal"
+        android:layout_below="@+id/Pages"
+
+        />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/helpside"
+        android:layout_below="@id/pageside"
+        android:background="@color/navimenuback"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/help"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="12dp"
+        android:text="HELP and SETTING"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:textColor="@color/blackmenu"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/menulinearback"
+        android:layout_height="1dp"
+        android:id="@+id/linearinnavi7"
+        android:orientation="horizontal"
+        android:layout_below="@+id/help"
+        />
+    </RelativeLayout>
+
+    <ImageView
+    android:layout_width="25dp"
+    android:layout_height="25dp"
+    android:id="@+id/language"
+    android:layout_below="@id/helpside"
+    android:src="@drawable/language"
+    android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="8dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Language"
+        android:id="@+id/languagetext"
+        android:layout_toRightOf="@+id/language"
+        android:layout_below="@+id/helpside"
+        android:layout_marginTop="14dp"
+        android:textColor="@color/menutextcolor"
+        android:textSize="12dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/menulinearback"
+        android:layout_height="1dp"
+        android:id="@+id/linearinnavi8"
+        android:orientation="horizontal"
+        android:layout_below="@+id/language"
+        />
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/helpcentre"
+        android:layout_below="@id/linearinnavi8"
+        android:src="@drawable/help_center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="8dp"        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help centre"
+        android:id="@+id/helpcentretext"
+        android:layout_toRightOf="@+id/helpcentre"
+        android:layout_below="@+id/linearinnavi8"
+        android:layout_marginTop="14dp"
+        android:textSize="12dp"
+        android:textColor="@color/menutextcolor"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/menulinearback"
+        android:layout_height="1dp"
+        android:id="@+id/linearinnavi9"
+        android:orientation="horizontal"
+        android:layout_below="@+id/helpcentre"
+        />
+
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/account"
+        android:layout_below="@id/linearinnavi9"
+        android:src="@drawable/account_setting"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="8dp"        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account settings"
+        android:id="@+id/accounttext"
+        android:layout_toRightOf="@+id/account"
+        android:layout_below="@+id/linearinnavi9"
+        android:layout_marginTop="14dp"
+        android:textSize="12dp"
+        android:textColor="@color/menutextcolor"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/menulinearback"
+        android:layout_height="1dp"
+        android:id="@+id/linearinnavi10"
+        android:orientation="horizontal"
+        android:layout_below="@+id/account"
+        />
+
+
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/problem"
+        android:layout_below="@id/linearinnavi10"
+        android:src="@drawable/help_center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="8dp"        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Report a problem"
+        android:id="@+id/problemtext"
+        android:layout_toRightOf="@+id/problem"
+        android:layout_below="@+id/linearinnavi10"
+        android:layout_marginTop="14dp"
+        android:textColor="@color/menutextcolor"
+        android:textSize="12dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/navibottom"
+        android:layout_height="30dp"
+        android:id="@+id/linearinnavi11"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>
